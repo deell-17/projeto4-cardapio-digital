@@ -7,26 +7,32 @@ let nome = prompt("Digite seu nome para regitro")
 let estudante = prompt(`Voce é estudante? (sim/não)`)
     
 let  prato1 = parseInt(prompt(`Menu:
-   Hanbúrguer- R$ 20
-   Pizza- R$ 35  
-   refrigerante- R$ 5
-   batatas fritas - R$ 12
-   
+   (1)Hanbúrguer- R$ 20
+   (2)Pizza- R$ 35  
+   (3)refrigerante- R$ 5
+   (4)batatas fritas - R$ 12
+   (5)Sair
    Escolha o seu primeiro prato! `))
     
+if(prato1 == 5) {
+    alert(`Obrigado pela visita ${nome}`)
+}
+
 let  prato2 = parseInt(prompt(`Menu:
-   Hanbúrguer- R$ 20
-   Pizza- R$ 35  
-   refrigerante- R$ 5
-   batatas fritas - R$ 12
+   (1)Hanbúrguer- R$ 20
+   (2)Pizza- R$ 35  
+   (3)refrigerante- R$ 5
+   (4)batatas fritas - R$ 12
+   (5)Sair
    
    Escolha o seu segundo prato! `))
 
    let  prato3 = parseInt(prompt(`Menu:
-   Hanbúrguer- R$ 20
-   Pizza- R$ 35  
-   refrigerante- R$ 5
-   batatas fritas - R$ 12
+   (1)Hanbúrguer- R$ 20
+   (2)Pizza- R$ 35  
+   (3)refrigerante- R$ 5
+   (4)batatas fritas - R$ 12
+   (5)Sair
    
    Escolha o seu terceiro prato! `))
 
